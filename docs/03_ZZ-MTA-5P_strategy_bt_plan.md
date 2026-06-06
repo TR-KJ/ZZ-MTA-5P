@@ -114,6 +114,24 @@ OOSで大きく崩れる場合は、過剰最適化の可能性あり。
 
 ---
 
+## Step 2 結果メモ
+
+Initial Break / Pre H/L の4パターン比較では、全体的にPF 0.57〜0.63で厳しい結果。
+
+- Strict系の方がAllow Already Brokenより安定
+- Allow Already Brokenはトレード数は増えるがPF改善なし
+- Pre H/L Modeの差は小さい
+- 現時点ではStrict系を優先してRR比較へ進む
+
+次は以下を比較する。
+
+| Pattern | Initial Break | Pre H/L |
+|---|---|---|
+| A | Strict | First Pivot |
+| B | Strict | Latest Pivot |
+
+RR候補：1.0 / 1.3 / 1.5 / 2.0 / 2.5
+
 ## 注意
 
 最初から触るパラメーターを広げすぎない。
