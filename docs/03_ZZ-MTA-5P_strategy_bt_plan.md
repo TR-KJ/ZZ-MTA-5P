@@ -132,6 +132,33 @@ Initial Break / Pre H/L の4パターン比較では、全体的にPF 0.57〜0.6
 
 RR候補：1.0 / 1.3 / 1.5 / 2.0 / 2.5
 
+##比較表
+
+## Strict系 RR比較
+
+| Version | Pair | Chart TF | HTF | Initial Break | Pre H/L | ATR | RR | Expire | Time Filter | Trades | Win Rate | PF | Max DD | Avg P/L | Memo |
+|---|---|---|---|---|---|---:|---:|---:|---|---:|---:|---:|---:|---:|---|
+| v1.1 | USDJPY | 5m | 60m | Strict | First Pivot | 2.0 | 1.0 | 240m | 09-24 |  |  |  |  |  |  |
+| v1.1 | USDJPY | 5m | 60m | Strict | First Pivot | 2.0 | 1.3 | 240m | 09-24 |  |  |  |  |  |  |
+| v1.1 | USDJPY | 5m | 60m | Strict | First Pivot | 2.0 | 1.5 | 240m | 09-24 |  |  |  |  |  |  |
+| v1.1 | USDJPY | 5m | 60m | Strict | First Pivot | 2.0 | 2.0 | 240m | 09-24 | 188 | 36.70% | 0.619 | 0.27% | -12.98 | 基準 |
+| v1.1 | USDJPY | 5m | 60m | Strict | First Pivot | 2.0 | 2.5 | 240m | 09-24 |  |  |  |  |  |  |
+| v1.1 | USDJPY | 5m | 60m | Strict | Latest Pivot | 2.0 | 1.0 | 240m | 09-24 |  |  |  |  |  |  |
+| v1.1 | USDJPY | 5m | 60m | Strict | Latest Pivot | 2.0 | 1.3 | 240m | 09-24 |  |  |  |  |  |  |
+| v1.1 | USDJPY | 5m | 60m | Strict | Latest Pivot | 2.0 | 1.5 | 240m | 09-24 |  |  |  |  |  |  |
+| v1.1 | USDJPY | 5m | 60m | Strict | Latest Pivot | 2.0 | 2.0 | 240m | 09-24 | 195 | 34.36% | 0.624 | 0.26% | -12.41 | 基準 |
+| v1.1 | USDJPY | 5m | 60m | Strict | Latest Pivot | 2.0 | 2.5 | 240m | 09-24 |  |  |  |  |  |  |
+
+##PF改善しないときの次の一手
+
+1. 時間帯フィルタの細分化
+
+2. HTF EMA方向フィルタ
+
+3. 5P Zone幅 / SL幅フィルタ
+
+4. Setup後の距離・勢いフィルタ
+
 ## 注意
 
 最初から触るパラメーターを広げすぎない。
