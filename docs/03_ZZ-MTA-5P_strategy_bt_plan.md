@@ -149,15 +149,15 @@ RR候補：1.0 / 1.3 / 1.5 / 2.0 / 2.5
 | v1.1 | USDJPY | 5m | 60m | Strict | Latest Pivot | 2.0 | 2.0 | 240m | 09-24 | 195 | 34.36% | 0.624 | 0.26% | -12.41 | 基準 |
 | v1.1 | USDJPY | 5m | 60m | Strict | Latest Pivot | 2.0 | 2.5 | 240m | 09-24 |  |  |  |  |  |  |
 
-##PF改善しないときの次の一手
+## 次フェーズ候補：Filter検証
 
-1. 時間帯フィルタの細分化
-
-2. HTF EMA方向フィルタ
-
-3. 5P Zone幅 / SL幅フィルタ
-
-4. Setup後の距離・勢いフィルタ
+| Priority | Filter | 内容 | 目的 |
+|---:|---|---|---|
+| 1 | Time Filter | 09-15 / 09-18 / 15-24 / 21-24 など | 悪い時間帯を削る |
+| 2 | HTF EMA Filter | Bull時 close > HTF EMA、Bear時 close < HTF EMA | 大きい流れに逆らうSetupを削る |
+| 3 | SL幅 Filter | SL幅が狭すぎる/広すぎるTradeを除外 | ノイズSLと過大リスクを削る |
+| 4 | Zone幅 Filter | 5P Zone幅が極端なSetupを除外 | 汚いゾーンを削る |
+| 5 | Distance Filter | Break後PivotがZoneから一定以上離れた場合のみ | 浅すぎるBreakを削る |
 
 ## 注意
 
