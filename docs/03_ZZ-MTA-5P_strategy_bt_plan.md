@@ -107,10 +107,10 @@ OOSで大きく崩れる場合は、過剰最適化の可能性あり。
 
 | Version | Pair | Chart TF | HTF | Initial Break | Pre H/L | ATR | RR | Expire | Time Filter | Trades | Win Rate | PF | Max DD | Avg P/L | Memo |
 |---|---|---|---|---|---|---:|---:|---:|---|---:|---:|---:|---:|---:|---|
-| v1.1 | USDJPY | 5m | 60m | Strict | First Pivot | 2.0 | 2.0 | 240m | 09-24 |  |  |  |  |  | 基準 |
-| v1.1 | USDJPY | 5m | 60m | Strict | Latest Pivot | 2.0 | 2.0 | 240m | 09-24 |  |  |  |  |  |  |
-| v1.1 | USDJPY | 5m | 60m | Allow Already Broken | First Pivot | 2.0 | 2.0 | 240m | 09-24 |  |  |  |  |  |  |
-| v1.1 | USDJPY | 5m | 60m | Allow Already Broken | Latest Pivot | 2.0 | 2.0 | 240m | 09-24 |  |  |  |  |  |  |
+| v1.1 | USDJPY | 5m | 60m | Strict | First Pivot | 2.0 | 2.0 | 240m | 09-24 | 188 | 36.70% | 0.619 | 0.27% | -12.98 | 基準 |
+| v1.1 | USDJPY | 5m | 60m | Strict | Latest Pivot | 2.0 | 2.0 | 240m | 09-24 | 195 | 34.36% | 0.624 | 0.26% | -12.41 |  |
+| v1.1 | USDJPY | 5m | 60m | Allow Already Broken | First Pivot | 2.0 | 2.0 | 240m | 09-24 | 242 | 33.47% | 0.572 | 0.41% | -16.49 |  |
+| v1.1 | USDJPY | 5m | 60m | Allow Already Broken | Latest Pivot | 2.0 | 2.0 | 240m | 09-24 | 251 | 33.07% | 0.627 | 0.36% | -13.17 |  |
 
 ---
 
